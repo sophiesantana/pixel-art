@@ -1,3 +1,17 @@
+body {
+    background-color: burlywood;
+}
+
+#title {
+    text-align: center;
+}
+
+#color-palette {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
 .color {
     border: 1px solid black;
     width: 40px;
@@ -5,16 +19,28 @@
     display: inline-block;
 }
 
+#btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 380px;
+}
+
+#btns input {
+    width: 50px;
+}
+
 #pixel-board {
-    display: block;
-    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .pixel {
     background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     margin-top: -4px;
-    border: 1px solid black;
     width: 40px;
     height: 40px;
-    display: inline-block;
+    display: block;
 }
